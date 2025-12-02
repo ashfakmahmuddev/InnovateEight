@@ -1,8 +1,4 @@
-
-import Hero from "../Hero"
-
-
-
+import Hero from "../layouts/Hero"
 
 const Home = () => {
   return (

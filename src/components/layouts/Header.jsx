@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <Container>
-      <div className="mt-[30px] w-[1170px] z-10">
+      <Container className={''}>
+      <div className="fixed w-[1170px] mx-auto mt-[30px] z-10">
         <Flex className={`justify-between items-center`}>
           <div className="">
             <Link to={"/"}>
@@ -78,9 +78,3 @@ const Header = () => {
 };
 
 export default Header;
-
-//
-//
-//
-//
-//
