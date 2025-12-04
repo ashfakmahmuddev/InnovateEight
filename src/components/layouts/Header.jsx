@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-      <Container className={''}>
-      <div className="fixed w-[1170px] mx-auto mt-[30px] z-10">
+    <div className="fixed w-full mx-auto py-[20px] bg-white z-10 shadow-[0_4px_10px_rgba(0,0,0,0.06)]">
+      <Container className={""}>
         <Flex className={`justify-between items-center`}>
           <div className="">
             <Link to={"/"}>
@@ -23,7 +23,7 @@ const Header = () => {
                   to={"/"}
                   className="flex items-center gap-x-1.5 text-[#192239] text-lg font-openSans font-semibold"
                 >
-                  Home <FaAngleDown />
+                  Home
                 </Link>
               </li>
               <li>
@@ -31,7 +31,7 @@ const Header = () => {
                   to={"/About"}
                   className="flex items-center gap-x-1.5 text-[#192239] text-lg font-openSans font-semibold"
                 >
-                  About <FaAngleDown />
+                  About
                 </Link>
               </li>
               <li>
@@ -47,7 +47,7 @@ const Header = () => {
                   to={"/Portfolio"}
                   className="flex items-center gap-x-1.5 text-[#192239] text-lg font-openSans font-semibold"
                 >
-                  Portfolio <FaAngleDown />
+                  Portfolio
                 </Link>
               </li>
               <li>
@@ -63,7 +63,7 @@ const Header = () => {
                   to={"/Blog"}
                   className="flex items-center gap-x-1.5 text-[#192239] text-lg font-openSans font-semibold"
                 >
-                  Blog <FaAngleDown />
+                  Blog
                 </Link>
               </li>
             </ul>
@@ -72,8 +72,8 @@ const Header = () => {
             <Button btnTxt={"Contact Us"} />
           </div>
         </Flex>
-      </div>
-    </Container>
+      </Container>
+    </div>
   );
 };
 
