@@ -14,7 +14,7 @@ import aboutContent6 from "/src/assets/aboutContent6.png";
 const About = ({ className }) => {
   return (
     <>
-      <div className={`pt-[200px] pb-[80px] ${className}`}>
+      <div className={`pt-[200px] pb-20 ${className}`}>
         <Container>
           <Flex className={"grid grid-cols-2 gap-x-[150px]"}>
             <div className="">
@@ -29,7 +29,7 @@ const About = ({ className }) => {
                 text={"Who We Are"}
                 as={"h3"}
               />
-              <p className="text-[#6C7D93] text-lg font-paprika leading-[32px] pt-2">
+              <p className="text-[#6C7D93] text-lg font-paprika leading-8 pt-2">
                 We are a Dhaka based Digital Communication Agency committed to
                 creating an actionable strategy, online marketing & technology
                 solution for our partners. As a multidisciplinary company, we

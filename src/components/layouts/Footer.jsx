@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
         <div className='font-semibold font-openSans'>
           <h3 className='text-2xl text-[#413F45] pb-12'>Features</h3>
-          <ul className='text-[#6C7D93] text-xl h-[240px] flex flex-col justify-between'>
+          <ul className='text-[#6C7D93] text-xl h-60 flex flex-col justify-between'>
             <li>
               <Link>Home</Link>
             </li>

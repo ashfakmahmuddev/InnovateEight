@@ -4,7 +4,7 @@ import Flex from "../Flex";
 import Heading from "../Heading";
 import Image from "../Image";
 import HeroContentImg from "/src/assets/heroContent.png";
-import service from "/src/assets/service.png";
+import readMore from "/src/assets/readMore.png";
 import service1 from "/src/assets/service1.png";
 import service2 from "/src/assets/service2.png";
 import service3 from "/src/assets/service3.png";
@@ -12,7 +12,7 @@ import service3 from "/src/assets/service3.png";
 const Service = ({ className }) => {
   return (
     <>
-      <div className={`pt-[160px] pb-[100px] ${className}`}>
+      <div className={`pt-40 pb-[100px] ${className}`}>
         <Container>
           <div className="text-center pb-[50px]">
             <Image
@@ -27,12 +27,12 @@ const Service = ({ className }) => {
               text={"Our Services"}
               as={"h3"}
             />
-            <p className="w-[300px] mx-auto text-[#6C7D93] text-lg font-paprika leading-[32px] pt-2">
+            <p className="w-[300px] mx-auto text-[#6C7D93] text-lg font-paprika leading-8 pt-2">
               We have been providing great flooring solutions service.
             </p>
           </div>
           <Flex className={"grid grid-cols-3 gap-[30px]"}>
-            <div className="px-[40px] py-[52px] bg-[#EBF7E9] text-center rounded-[20px]">
+            <div className="px-10 py-[52px] bg-[#EBF7E9] text-center rounded-[20px]">
               <Image
                 src={service1}
                 alt={service1}
@@ -51,13 +51,13 @@ const Service = ({ className }) => {
               </p>
               <Link>
                 <Image
-                  src={service}
-                  alt={service}
+                  src={readMore}
+                  alt={readMore}
                   className={"block mx-auto"}
                 />
               </Link>
             </div>
-            <div className="px-[40px] py-[52px] bg-[#D8EAFF] text-center rounded-[20px]">
+            <div className="px-10 py-[52px] bg-[#D8EAFF] text-center rounded-[20px]">
               <Image
                 src={service2}
                 alt={service2}
@@ -75,13 +75,13 @@ const Service = ({ className }) => {
               </p>
               <Link>
                 <Image
-                  src={service}
-                  alt={service}
+                  src={readMore}
+                  alt={readMore}
                   className={"block mx-auto"}
                 />
               </Link>
             </div>
-            <div className="px-[40px] py-[52px] bg-[#FBF1EC] text-center rounded-[20px]">
+            <div className="px-10 py-[52px] bg-[#FBF1EC] text-center rounded-[20px]">
               <Image
                 src={service3}
                 alt={service3}
@@ -99,8 +99,8 @@ const Service = ({ className }) => {
               </p>
               <Link>
                 <Image
-                  src={service}
-                  alt={service}
+                  src={readMore}
+                  alt={readMore}
                   className={"block mx-auto"}
                 />
               </Link>
