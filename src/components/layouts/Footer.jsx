@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
         <div className='font-semibold font-openSans'>
           <h3 className='text-2xl text-[#413F45] pb-12'>Features</h3>
-          <ul className='text-[#6C7D93] text-xl h-60 flex flex-col justify-between'>
+          <ul className='text-[#6C7D93] text-xl h-60 flex flex-col justify-between capitalize'>
             <li>
               <Link>Home</Link>
             </li>
@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
         <div className='font-semibold font-openSans'>
           <h3 className='text-2xl text-[#413F45] pb-12'>Products</h3>
-          <ul className='text-[#6C7D93] text-xl h-[132px] flex flex-col justify-between'>
+          <ul className='text-[#6C7D93] text-xl h-[132px] flex flex-col justify-between capitalize'>
             <li>
               <Link>Task Management</Link>
             </li>
@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
         <div className='font-semibold font-openSans'>
           <h3 className='text-2xl text-[#413F45] pb-12'>Support</h3>
-          <ul className='text-[#6C7D93] text-xl h-[132px] flex flex-col justify-between'>
+          <ul className='text-[#6C7D93] text-xl h-[132px] flex flex-col justify-between capitalize'>
             <li>
               <Link>Customer service</Link>
             </li>
@@ -63,8 +63,8 @@ const Footer = () => {
           </ul>
         </div>
       </Flex>
-      <Flex className={`justify-between items-center text-[#6C7D93] text-lg font-openSans py-[60px]`}>
-        <span>@20201 Innovate.All rights reserved.</span>
+      <Flex className={`justify-between items-center text-[#6C7D93] text-lg font-openSans py-[60px] capitalize`}>
+        <p>@2025 Innovate. All rights reserved by <span className='text-teal-800 font-bold'>Ashfak Mahmud</span>.</p>
         <ul className='flex items-center gap-x-15'>
           <li>
             <Link>Privacy policy</Link>
