@@ -21,7 +21,7 @@ function App() {
           <Route path="/Price" element={<Price/>}/>
           <Route path="/Blog" element={<Blog/>}/>
         </Route>
-          <Route path="*"dex element={<Error />}/>
+          <Route path="*" element={<Error />}/>
       </Routes>
     </>
   );
