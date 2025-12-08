@@ -6,7 +6,6 @@ import Logo from './../../assets/logo.png'
 
 const Footer = () => {
   return (
-    <>
     <div className="bg-gray-100">
       <Container>
       <Flex className={`justify-between pt-[140px] pb-20`}>
@@ -76,7 +75,6 @@ const Footer = () => {
       </Flex>
     </Container>
     </div>
-    </>
   )
 }
 

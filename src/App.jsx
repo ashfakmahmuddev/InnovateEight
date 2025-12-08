@@ -20,8 +20,8 @@ function App() {
           <Route path="/Portfolio" element={<Portfolio/>}/>
           <Route path="/Price" element={<Price/>}/>
           <Route path="/Blog" element={<Blog/>}/>
-          <Route inpath="*"dex element={<Error />}/>
         </Route>
+          <Route path="*"dex element={<Error />}/>
       </Routes>
     </>
   );
